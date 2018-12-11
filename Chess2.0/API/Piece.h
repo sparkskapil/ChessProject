@@ -16,13 +16,12 @@ namespace Chess {
 
 		void IncrementCaptureCount(unsigned increment);
 		Color GetColor()const;
-		void SetColor(Color color);
 		int GetCaptures()const;
 
 	protected:
 
 		Piece();
-		virtual void UpdateNearByCells() = 0;
+		//virtual void UpdateNearByCells() = 0;
 
 		Color color;
 		int captures;

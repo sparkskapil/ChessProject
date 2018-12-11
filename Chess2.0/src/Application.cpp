@@ -3,6 +3,7 @@
 #include "include/ChessBoard.h"
 #include "include/Cell.h"
 #include "API/Piece.h"
+#include "include/Player.h"
 
 using namespace std;
 using namespace Chess;
@@ -10,6 +11,8 @@ using namespace Chess;
 int main()
 {
 	ChessBoard chess;
+	Player player1(White, chess);
+	Player player2(Black, chess);
 
 	for (int i = 0; i <= 8; i++)
 	{

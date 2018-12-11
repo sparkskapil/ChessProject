@@ -40,6 +40,11 @@ namespace Chess {
 		return m_piece;
 	}
 
+	void Cell::SetPiece(Piece * piece)
+	{
+		m_piece = piece;
+	}
+
 	Cell::~Cell()
 	{
 		if (m_piece)

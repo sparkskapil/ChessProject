@@ -136,12 +136,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="API\Enums.h" />
+    <ClInclude Include="API\GameVariables.h" />
     <ClInclude Include="API\Piece.h" />
+    <ClInclude Include="include\Bishop.h" />
     <ClInclude Include="include\Cell.h" />
     <ClInclude Include="include\ChessBoard.h" />
+    <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\Queen.h" />
     <ClInclude Include="include\Rook.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Bishop.cpp" />
+    <ClCompile Include="src\GameVariables.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Queen.cpp" />
+    <ClCompile Include="src\Rook.cpp" />
     <ClCompile Include="src\ChessBoard.cpp" />
     <ClCompile Include="src\Piece.cpp" />
     <ClCompile Include="src\Application.cpp" />

@@ -2,11 +2,11 @@
 #include "API/Piece.h"
 namespace Chess
 {
-	class Rook : public Piece
+	class Queen : public Piece
 	{
 	public:
-		Rook(Color color);
-		~Rook();
+		Queen(Color color);
+		~Queen();
 		char Symbol() override;
 		unsigned GetPoint() override;
 		bool isValidMove(int x1, int y1, int x2, int y2) override;

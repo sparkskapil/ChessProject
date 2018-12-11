@@ -9,6 +9,7 @@ namespace Chess
 		Cell(unsigned int x, unsigned int y);
 		MoveError MovePieceTo(Chess::Cell& cell);
 		Piece* const GetPiece()const;
+		void SetPiece(Piece* piece);
 		~Cell();
 	private:
 		//bool CaptureNearPieces(Cell &cell);
